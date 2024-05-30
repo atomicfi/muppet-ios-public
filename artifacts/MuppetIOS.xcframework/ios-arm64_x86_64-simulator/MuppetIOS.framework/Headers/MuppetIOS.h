@@ -791,6 +791,7 @@ __attribute__((swift_name("PlatformKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RequestKt")))
 @interface MIOSRequestKt : MIOSBase
++ (MIOSRequest * _Nullable)redirectRequestRequest:(MIOSRequest *)request status:(int32_t)status location:(NSString * _Nullable)location __attribute__((swift_name("redirectRequest(request:status:location:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
