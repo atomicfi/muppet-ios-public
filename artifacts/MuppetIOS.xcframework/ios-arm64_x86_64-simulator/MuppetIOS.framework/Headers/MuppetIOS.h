@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MIOSEmitterEvent<T>, MIOSKotlinEnum<E>, MIOSEmitter<T>, MIOSBrowser<T>, UIViewController, WKWebViewConfiguration, UINavigationController, WKWebView, MIOSKotlinEnumCompanion, MIOSConstants, MIOSKotlinArray<T>, MIOSMuppet<T>, MIOSKtor_httpCookie, MIOSResponse, MIOSKtor_client_coreHttpClient, MIOSPage_<T>, MIOSBrowser_, MIOSHttpCookiesCompanion, MIOSKtor_httpUrl, MIOSKtor_utilsAttributeKey<T>, MIOSHttpCookies, MIOSHttpCookiesConfig, MIOSRequest, MIOSKotlinx_serialization_jsonJsonElement, MIOSBrowserEvent, MIOSPage_Event, MIOSPage_MessageCompanion, MIOSPage_Message, MIOSKtor_client_coreHttpClientEngineConfig, MIOSKtor_client_coreHttpClientConfig<T>, MIOSKtor_eventsEvents, MIOSKtor_client_coreHttpReceivePipeline, MIOSKtor_client_coreHttpRequestPipeline, MIOSKtor_client_coreHttpResponsePipeline, MIOSKtor_client_coreHttpSendPipeline, MIOSKotlinThrowable, MIOSKotlinException, MIOSKotlinRuntimeException, MIOSKotlinIllegalStateException, MIOSKtor_httpCookieEncoding, MIOSKtor_utilsGMTDate, MIOSKotlinCancellationException, MIOSKtor_httpUrlCompanion, MIOSKtor_httpURLProtocol, MIOSKotlinx_serialization_jsonJsonElementCompanion, MIOSKtor_client_coreHttpRequestData, MIOSKtor_client_coreHttpResponseData, MIOSKotlinx_coroutines_coreCoroutineDispatcher, MIOSKtor_client_coreProxyConfig, MIOSKtor_eventsEventDefinition<T>, MIOSKtor_utilsPipelinePhase, MIOSKtor_utilsPipeline<TSubject, TContext>, MIOSKtor_client_coreHttpReceivePipelinePhases, MIOSKtor_client_coreHttpResponse, MIOSKotlinUnit, MIOSKtor_client_coreHttpRequestPipelinePhases, MIOSKtor_client_coreHttpRequestBuilder, MIOSKtor_client_coreHttpResponsePipelinePhases, MIOSKtor_client_coreHttpResponseContainer, MIOSKtor_client_coreHttpClientCall, MIOSKtor_client_coreHttpSendPipelinePhases, MIOSKtor_utilsGMTDateCompanion, MIOSKtor_utilsWeekDay, MIOSKtor_utilsMonth, MIOSKtor_httpURLProtocolCompanion, MIOSKotlinx_serialization_coreSerializersModule, MIOSKotlinx_serialization_coreSerialKind, MIOSKotlinNothing, MIOSKtor_httpHttpMethod, MIOSKtor_httpOutgoingContent, MIOSKtor_httpHttpStatusCode, MIOSKtor_httpHttpProtocolVersion, MIOSKotlinAbstractCoroutineContextElement, MIOSKotlinx_coroutines_coreCoroutineDispatcherKey, MIOSKtor_httpHeadersBuilder, MIOSKtor_client_coreHttpRequestBuilderCompanion, MIOSKtor_httpURLBuilder, MIOSKtor_utilsTypeInfo, MIOSKtor_client_coreHttpClientCallCompanion, MIOSKtor_utilsWeekDayCompanion, MIOSKtor_utilsMonthCompanion, MIOSKtor_httpHttpMethodCompanion, MIOSKtor_httpContentType, MIOSKtor_httpHttpStatusCodeCompanion, MIOSKtor_httpHttpProtocolVersionCompanion, MIOSKotlinAbstractCoroutineContextKey<B, E>, MIOSKtor_ioMemory, MIOSKtor_ioChunkBuffer, MIOSKtor_ioBuffer, MIOSKotlinByteArray, MIOSKtor_ioByteReadPacket, MIOSKtor_utilsStringValuesBuilderImpl, MIOSKtor_httpURLBuilderCompanion, MIOSKtor_httpHeaderValueParam, MIOSKtor_httpHeaderValueWithParametersCompanion, MIOSKtor_httpHeaderValueWithParameters, MIOSKtor_httpContentTypeCompanion, MIOSKtor_ioMemoryCompanion, MIOSKtor_ioBufferCompanion, MIOSKtor_ioChunkBufferCompanion, MIOSKotlinByteIterator, MIOSKtor_ioInputCompanion, MIOSKtor_ioInput, MIOSKtor_ioByteReadPacketCompanion, MIOSKotlinKTypeProjection, MIOSKotlinKVariance, MIOSKotlinKTypeProjectionCompanion;
+@class MIOSEmitterEvent<T>, MIOSKotlinEnum<E>, MIOSEmitter<T>, BrowserBase<T>, UIViewController, WKWebViewConfiguration, UINavigationController, WKWebView, MIOSKotlinEnumCompanion, MIOSConstants, MIOSKotlinArray<T>, MuppetBase<T>, MIOSKtor_httpCookie, MIOSResponse, MIOSKtor_client_coreHttpClient, PageBase<T>, Browser, MIOSHttpCookiesCompanion, MIOSKtor_httpUrl, MIOSKtor_utilsAttributeKey<T>, MIOSHttpCookies, MIOSHttpCookiesConfig, MIOSRequest, MIOSKotlinx_serialization_jsonJsonElement, BrowserEvent, PageEvent, PageBaseMessageCompanion, PageBaseMessage, MIOSKtor_client_coreHttpClientEngineConfig, MIOSKtor_client_coreHttpClientConfig<T>, MIOSKtor_eventsEvents, MIOSKtor_client_coreHttpReceivePipeline, MIOSKtor_client_coreHttpRequestPipeline, MIOSKtor_client_coreHttpResponsePipeline, MIOSKtor_client_coreHttpSendPipeline, MIOSKotlinThrowable, MIOSKotlinException, MIOSKotlinRuntimeException, MIOSKotlinIllegalStateException, MIOSKtor_httpCookieEncoding, MIOSKtor_utilsGMTDate, MIOSKotlinCancellationException, MIOSKtor_httpUrlCompanion, MIOSKtor_httpURLProtocol, MIOSKotlinx_serialization_jsonJsonElementCompanion, MIOSKtor_client_coreHttpRequestData, MIOSKtor_client_coreHttpResponseData, MIOSKotlinx_coroutines_coreCoroutineDispatcher, MIOSKtor_client_coreProxyConfig, MIOSKtor_eventsEventDefinition<T>, MIOSKtor_utilsPipelinePhase, MIOSKtor_utilsPipeline<TSubject, TContext>, MIOSKtor_client_coreHttpReceivePipelinePhases, MIOSKtor_client_coreHttpResponse, MIOSKotlinUnit, MIOSKtor_client_coreHttpRequestPipelinePhases, MIOSKtor_client_coreHttpRequestBuilder, MIOSKtor_client_coreHttpResponsePipelinePhases, MIOSKtor_client_coreHttpResponseContainer, MIOSKtor_client_coreHttpClientCall, MIOSKtor_client_coreHttpSendPipelinePhases, MIOSKtor_utilsGMTDateCompanion, MIOSKtor_utilsWeekDay, MIOSKtor_utilsMonth, MIOSKtor_httpURLProtocolCompanion, MIOSKotlinx_serialization_coreSerializersModule, MIOSKotlinx_serialization_coreSerialKind, MIOSKotlinNothing, MIOSKtor_httpHttpMethod, MIOSKtor_httpOutgoingContent, MIOSKtor_httpHttpStatusCode, MIOSKtor_httpHttpProtocolVersion, MIOSKotlinAbstractCoroutineContextElement, MIOSKotlinx_coroutines_coreCoroutineDispatcherKey, MIOSKtor_httpHeadersBuilder, MIOSKtor_client_coreHttpRequestBuilderCompanion, MIOSKtor_httpURLBuilder, MIOSKtor_utilsTypeInfo, MIOSKtor_client_coreHttpClientCallCompanion, MIOSKtor_utilsWeekDayCompanion, MIOSKtor_utilsMonthCompanion, MIOSKtor_httpHttpMethodCompanion, MIOSKtor_httpContentType, MIOSKtor_httpHttpStatusCodeCompanion, MIOSKtor_httpHttpProtocolVersionCompanion, MIOSKotlinAbstractCoroutineContextKey<B, E>, MIOSKtor_ioMemory, MIOSKtor_ioChunkBuffer, MIOSKtor_ioBuffer, MIOSKotlinByteArray, MIOSKtor_ioByteReadPacket, MIOSKtor_utilsStringValuesBuilderImpl, MIOSKtor_httpURLBuilderCompanion, MIOSKtor_httpHeaderValueParam, MIOSKtor_httpHeaderValueWithParametersCompanion, MIOSKtor_httpHeaderValueWithParameters, MIOSKtor_httpContentTypeCompanion, MIOSKtor_ioMemoryCompanion, MIOSKtor_ioBufferCompanion, MIOSKtor_ioChunkBufferCompanion, MIOSKotlinByteIterator, MIOSKtor_ioInputCompanion, MIOSKtor_ioInput, MIOSKtor_ioByteReadPacketCompanion, MIOSKotlinKTypeProjection, MIOSKotlinKVariance, MIOSKotlinKTypeProjectionCompanion;
 
-@protocol MIOSKotlinSuspendFunction1, MIOSEmitter, MIOSPage, MIOSPageFactory, MIOSBrowser, MIOSPageFactory_, MIOSKotlinComparable, MIOSBrowserFactory, MIOSMuppet, MIOSKotlinx_coroutines_coreDeferred, MIOSKotlinx_coroutines_coreCompletableDeferred, MIOSKotlinx_coroutines_coreCoroutineScope, MIOSKtor_ioCloseable, MIOSKtor_client_coreHttpClientPlugin, MIOSKtor_client_coreCookiesStorage, MIOSKotlinx_serialization_coreKSerializer, MIOSKotlinCoroutineContext, MIOSKtor_client_coreHttpClientEngine, MIOSKtor_client_coreHttpClientEngineCapability, MIOSKtor_utilsAttributes, MIOSKtor_client_coreClientPlugin, MIOSKotlinFunction, MIOSKotlinIterator, MIOSKotlinx_coroutines_coreSelectClause1, MIOSKotlinx_coroutines_coreChildHandle, MIOSKotlinx_coroutines_coreChildJob, MIOSKotlinx_coroutines_coreDisposableHandle, MIOSKotlinx_coroutines_coreJob, MIOSKotlinSequence, MIOSKotlinx_coroutines_coreSelectClause0, MIOSKotlinCoroutineContextKey, MIOSKotlinCoroutineContextElement, MIOSKtor_httpParameters, MIOSKotlinx_serialization_coreEncoder, MIOSKotlinx_serialization_coreSerialDescriptor, MIOSKotlinx_serialization_coreSerializationStrategy, MIOSKotlinx_serialization_coreDecoder, MIOSKotlinx_serialization_coreDeserializationStrategy, MIOSKotlinSuspendFunction2, MIOSKotlinx_coroutines_coreSelectInstance, MIOSKotlinx_coroutines_coreSelectClause, MIOSKotlinx_coroutines_coreParentJob, MIOSKotlinMapEntry, MIOSKtor_utilsStringValues, MIOSKotlinx_serialization_coreCompositeEncoder, MIOSKotlinAnnotation, MIOSKotlinx_serialization_coreCompositeDecoder, MIOSKtor_httpHeaders, MIOSKotlinContinuation, MIOSKotlinContinuationInterceptor, MIOSKotlinx_coroutines_coreRunnable, MIOSKtor_httpHttpMessage, MIOSKtor_ioByteReadChannel, MIOSKtor_httpHttpMessageBuilder, MIOSKtor_client_coreHttpRequest, MIOSKotlinx_serialization_coreSerializersModuleCollector, MIOSKotlinKClass, MIOSKtor_ioReadSession, MIOSKotlinAppendable, MIOSKtor_utilsStringValuesBuilder, MIOSKtor_httpParametersBuilder, MIOSKotlinKType, MIOSKotlinKDeclarationContainer, MIOSKotlinKAnnotatedElement, MIOSKotlinKClassifier, MIOSKtor_ioObjectPool;
+@protocol MIOSKotlinSuspendFunction1, EmitterProtocol, PageProtocol, PageFactoryBaseProtocol, BrowserProtocol, PageFactoryProtocol, MIOSKotlinComparable, BrowserFactoryProtocol, MuppetProtocol, MIOSKotlinx_coroutines_coreDeferred, MIOSKotlinx_coroutines_coreCompletableDeferred, MIOSKotlinx_coroutines_coreCoroutineScope, MIOSKtor_ioCloseable, MIOSKtor_client_coreHttpClientPlugin, MIOSKtor_client_coreCookiesStorage, MIOSKotlinx_serialization_coreKSerializer, MIOSKotlinCoroutineContext, MIOSKtor_client_coreHttpClientEngine, MIOSKtor_client_coreHttpClientEngineCapability, MIOSKtor_utilsAttributes, MIOSKtor_client_coreClientPlugin, MIOSKotlinFunction, MIOSKotlinIterator, MIOSKotlinx_coroutines_coreSelectClause1, MIOSKotlinx_coroutines_coreChildHandle, MIOSKotlinx_coroutines_coreChildJob, MIOSKotlinx_coroutines_coreDisposableHandle, MIOSKotlinx_coroutines_coreJob, MIOSKotlinSequence, MIOSKotlinx_coroutines_coreSelectClause0, MIOSKotlinCoroutineContextKey, MIOSKotlinCoroutineContextElement, MIOSKtor_httpParameters, MIOSKotlinx_serialization_coreEncoder, MIOSKotlinx_serialization_coreSerialDescriptor, MIOSKotlinx_serialization_coreSerializationStrategy, MIOSKotlinx_serialization_coreDecoder, MIOSKotlinx_serialization_coreDeserializationStrategy, MIOSKotlinSuspendFunction2, MIOSKotlinx_coroutines_coreSelectInstance, MIOSKotlinx_coroutines_coreSelectClause, MIOSKotlinx_coroutines_coreParentJob, MIOSKotlinMapEntry, MIOSKtor_utilsStringValues, MIOSKotlinx_serialization_coreCompositeEncoder, MIOSKotlinAnnotation, MIOSKotlinx_serialization_coreCompositeDecoder, MIOSKtor_httpHeaders, MIOSKotlinContinuation, MIOSKotlinContinuationInterceptor, MIOSKotlinx_coroutines_coreRunnable, MIOSKtor_httpHttpMessage, MIOSKtor_ioByteReadChannel, MIOSKtor_httpHttpMessageBuilder, MIOSKtor_client_coreHttpRequest, MIOSKotlinx_serialization_coreSerializersModuleCollector, MIOSKotlinKClass, MIOSKtor_ioReadSession, MIOSKotlinAppendable, MIOSKtor_utilsStringValuesBuilder, MIOSKtor_httpParametersBuilder, MIOSKotlinKType, MIOSKotlinKDeclarationContainer, MIOSKotlinKAnnotatedElement, MIOSKotlinKClassifier, MIOSKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -144,8 +144,7 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end
 
-__attribute__((swift_name("Emitter")))
-@protocol MIOSEmitter
+@protocol EmitterProtocol
 @required
 
 /**
@@ -175,8 +174,8 @@ __attribute__((swift_name("Emitter")))
 - (id<MIOSKotlinSuspendFunction1>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
 @end
 
-__attribute__((swift_name("Emitter_")))
-@interface MIOSEmitter<T> : MIOSBase <MIOSEmitter>
+__attribute__((swift_name("Emitter")))
+@interface MIOSEmitter<T> : MIOSBase <EmitterProtocol>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 
@@ -207,8 +206,7 @@ __attribute__((swift_name("Emitter_")))
 - (id<MIOSKotlinSuspendFunction1>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
 @end
 
-__attribute__((swift_name("Browser")))
-@protocol MIOSBrowser <MIOSEmitter>
+@protocol BrowserProtocol <EmitterProtocol>
 @required
 
 /**
@@ -222,32 +220,31 @@ __attribute__((swift_name("Browser")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doNewPageWithCompletionHandler:(void (^)(id<MIOSPage> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doNewPage(completionHandler:)")));
+- (void)PageWithCompletionHandler:(void (^)(id<PageProtocol> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("Page(completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doNewPageFactory:(id<MIOSPageFactory>)factory completionHandler:(void (^)(id<MIOSPage> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doNewPage(factory:completionHandler:)")));
+- (void)PageFactory:(id<PageFactoryBaseProtocol>)factory completionHandler:(void (^)(id<PageProtocol> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("Page(factory:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doNewPageFactory:(id<MIOSPage> (^)(id<MIOSBrowser>))factory completionHandler_:(void (^)(id<MIOSPage> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doNewPage(factory:completionHandler_:)")));
-- (NSArray<id<MIOSPage>> *)pages __attribute__((swift_name("pages()")));
+- (void)PageFactory:(id<PageProtocol> (^)(id<BrowserProtocol>))factory completionHandler_:(void (^)(id<PageProtocol> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("Page(factory:completionHandler_:)")));
+- (NSArray<id<PageProtocol>> *)pages __attribute__((swift_name("pages()")));
 @end
 
-__attribute__((swift_name("Browser_")))
-@interface MIOSBrowser<T> : MIOSEmitter<id> <MIOSBrowser>
-- (instancetype)initWithFactory:(id<MIOSPageFactory>)factory __attribute__((swift_name("init(factory:)"))) __attribute__((objc_designated_initializer));
+@interface BrowserBase<T> : MIOSEmitter<id> <BrowserProtocol>
+- (instancetype)initWithFactory:(id<PageFactoryBaseProtocol>)factory __attribute__((swift_name("init(factory:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-- (void)addPagePage:(id<MIOSPage>)page __attribute__((swift_name("addPage(page:)")));
+- (void)addPagePage:(id<PageProtocol>)page __attribute__((swift_name("addPage(page:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -260,43 +257,42 @@ __attribute__((swift_name("Browser_")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doNewPageWithCompletionHandler:(void (^)(id<MIOSPage> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doNewPage(completionHandler:)")));
+- (void)PageWithCompletionHandler:(void (^)(id<PageProtocol> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("Page(completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doNewPageFactory:(id<MIOSPageFactory>)factory completionHandler:(void (^)(id<MIOSPage> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doNewPage(factory:completionHandler:)")));
+- (void)PageFactory:(id<PageFactoryBaseProtocol>)factory completionHandler:(void (^)(id<PageProtocol> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("Page(factory:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doNewPageFactory:(id<MIOSPage> (^)(id<MIOSBrowser>))factory completionHandler_:(void (^)(id<MIOSPage> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doNewPage(factory:completionHandler_:)")));
-- (NSArray<id<MIOSPage>> *)pages __attribute__((swift_name("pages()")));
+- (void)PageFactory:(id<PageProtocol> (^)(id<BrowserProtocol>))factory completionHandler_:(void (^)(id<PageProtocol> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("Page(factory:completionHandler_:)")));
+- (NSArray<id<PageProtocol>> *)pages __attribute__((swift_name("pages()")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-- (void)removePagePage:(id<MIOSPage>)page keep:(BOOL)keep __attribute__((swift_name("removePage(page:keep:)")));
+- (void)removePagePage:(id<PageProtocol>)page keep:(BOOL)keep __attribute__((swift_name("removePage(page:keep:)")));
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-@property (readonly) NSMutableArray<id<MIOSPage>> *_pages __attribute__((swift_name("_pages")));
+@property (readonly) NSMutableArray<id<PageProtocol>> *_pages __attribute__((swift_name("_pages")));
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-@property (readonly) id<MIOSPageFactory> factory __attribute__((swift_name("factory")));
+@property (readonly) id<PageFactoryBaseProtocol> factory __attribute__((swift_name("factory")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Browser__")))
-@interface MIOSBrowser_ : MIOSBrowser<WKWebView *> <MIOSBrowser>
-- (instancetype)initWithController:(UIViewController *)controller factory:(id<MIOSPageFactory_>)factory __attribute__((swift_name("init(controller:factory:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithFactory:(id<MIOSPageFactory>)factory __attribute__((swift_name("init(factory:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (id<MIOSPage>)doNewPageConfiguration:(WKWebViewConfiguration *)configuration __attribute__((swift_name("doNewPage(configuration:)")));
+@interface Browser : BrowserBase<WKWebView *> <BrowserProtocol>
+- (instancetype)initWithController:(UIViewController *)controller factory:(id<PageFactoryProtocol>)factory __attribute__((swift_name("init(controller:factory:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithFactory:(id<PageFactoryBaseProtocol>)factory __attribute__((swift_name("init(factory:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (id<PageProtocol>)PageConfiguration:(WKWebViewConfiguration *)configuration __attribute__((swift_name("Page(configuration:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -338,46 +334,44 @@ __attribute__((swift_name("Constants")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Emitter_Event")))
+__attribute__((swift_name("EmitterEvent")))
 @interface MIOSEmitterEvent<T> : MIOSBase
 - (instancetype)initWithType:(NSString *)type data:(T _Nullable)data __attribute__((swift_name("init(type:data:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) T _Nullable data __attribute__((swift_name("data")));
 @property (readonly) NSString *type __attribute__((swift_name("type")));
 @end
 
-__attribute__((swift_name("Muppet")))
-@protocol MIOSMuppet
+@protocol MuppetProtocol
 @required
-- (id<MIOSPage> _Nullable)getPageHandle:(NSString *)handle __attribute__((swift_name("getPage(handle:)")));
-- (id<MIOSBrowser>)launchFactory:(id<MIOSBrowserFactory>)factory __attribute__((swift_name("launch(factory:)")));
+- (id<PageProtocol> _Nullable)getPageHandle:(NSString *)handle __attribute__((swift_name("getPage(handle:)")));
+- (void)injectPage:(id<PageProtocol>)page factory:(id<BrowserFactoryProtocol>)factory __attribute__((swift_name("inject(page:factory:)")));
+- (id<BrowserProtocol>)launchFactory:(id<BrowserFactoryProtocol>)factory __attribute__((swift_name("launch(factory:)")));
 @end
 
-__attribute__((swift_name("Muppet_")))
-@interface MIOSMuppet<T> : MIOSEmitter<id> <MIOSMuppet>
+@interface MuppetBase<T> : MIOSEmitter<id> <MuppetProtocol>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addBrowserBrowser:(id<MIOSBrowser>)browser __attribute__((swift_name("addBrowser(browser:)")));
-- (id<MIOSPage> _Nullable)getPageHandle:(NSString *)handle __attribute__((swift_name("getPage(handle:)")));
-- (id<MIOSBrowser>)launchFactory:(id<MIOSBrowserFactory>)factory __attribute__((swift_name("launch(factory:)")));
-- (void)removeBrowserBrowser:(id<MIOSBrowser>)browser __attribute__((swift_name("removeBrowser(browser:)")));
+- (void)addBrowserBrowser:(id<BrowserProtocol>)browser __attribute__((swift_name("addBrowser(browser:)")));
+- (id<PageProtocol> _Nullable)getPageHandle:(NSString *)handle __attribute__((swift_name("getPage(handle:)")));
+- (void)injectPage:(id<PageProtocol>)page factory:(id<BrowserFactoryProtocol>)factory __attribute__((swift_name("inject(page:factory:)")));
+- (id<BrowserProtocol>)launchFactory:(id<BrowserFactoryProtocol>)factory __attribute__((swift_name("launch(factory:)")));
+- (void)removeBrowserBrowser:(id<BrowserProtocol>)browser __attribute__((swift_name("removeBrowser(browser:)")));
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-@property (readonly) NSMutableArray<id<MIOSBrowser>> *_browsers __attribute__((swift_name("_browsers")));
+@property (readonly) NSMutableArray<id<BrowserProtocol>> *_browsers __attribute__((swift_name("_browsers")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Muppet__")))
-@interface MIOSMuppet_ : MIOSMuppet<WKWebView *>
+@interface Muppet : MuppetBase<WKWebView *>
 - (instancetype)initWithSource:(UIViewController *)source __attribute__((swift_name("init(source:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (id<MIOSBrowser>)launchFactory:(id<MIOSBrowserFactory>)factory __attribute__((swift_name("launch(factory:)")));
+- (id<BrowserProtocol>)launchFactory:(id<BrowserFactoryProtocol>)factory __attribute__((swift_name("launch(factory:)")));
 @end
 
-__attribute__((swift_name("Page")))
-@protocol MIOSPage <MIOSEmitter>
+@protocol PageProtocol <EmitterProtocol>
 @required
 
 /**
@@ -465,9 +459,8 @@ __attribute__((swift_name("Page")))
 - (id _Nullable)view __attribute__((swift_name("view()")));
 @end
 
-__attribute__((swift_name("Page__")))
-@interface MIOSPage_<T> : MIOSEmitter<id> <MIOSPage>
-- (instancetype)initWithBrowser:(id<MIOSBrowser>)browser view:(T _Nullable)view __attribute__((swift_name("init(browser:view:)"))) __attribute__((objc_designated_initializer));
+@interface PageBase<T> : MIOSEmitter<id> <PageProtocol>
+- (instancetype)initWithBrowser:(id<BrowserProtocol>)browser view:(T _Nullable)view __attribute__((swift_name("init(browser:view:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 
@@ -598,14 +591,13 @@ __attribute__((swift_name("Page__")))
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-@property (readonly) id<MIOSBrowser> browser __attribute__((swift_name("browser")));
+@property (readonly) id<BrowserProtocol> browser __attribute__((swift_name("browser")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Page_")))
-@interface MIOSPage : MIOSPage_<WKWebView *> <MIOSPage>
-- (instancetype)initWithBrowser:(MIOSBrowser_ *)browser view:(WKWebView *)view controller:(UIViewController *)controller __attribute__((swift_name("init(browser:view:controller:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithBrowser:(id<MIOSBrowser>)browser view:(id _Nullable)view __attribute__((swift_name("init(browser:view:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@interface Page : PageBase<WKWebView *> <PageProtocol>
+- (instancetype)initWithBrowser:(Browser *)browser view:(WKWebView *)view controller:(UIViewController *)controller __attribute__((swift_name("init(browser:view:controller:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithBrowser:(id<BrowserProtocol>)browser view:(id _Nullable)view __attribute__((swift_name("init(browser:view:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -683,16 +675,14 @@ __attribute__((swift_name("Page_")))
 @property (readonly) UIViewController *controller __attribute__((swift_name("controller")));
 @end
 
-__attribute__((swift_name("PageFactory")))
-@protocol MIOSPageFactory
+@protocol PageFactoryBaseProtocol
 @required
-- (id<MIOSPage>)createBrowser:(id<MIOSBrowser>)browser __attribute__((swift_name("create(browser:)")));
+- (id<PageProtocol>)createBrowser:(id<BrowserProtocol>)browser __attribute__((swift_name("create(browser:)")));
 @end
 
-__attribute__((swift_name("Page_Factory")))
-@protocol MIOSPageFactory_ <MIOSPageFactory>
+@protocol PageFactoryProtocol <PageFactoryBaseProtocol>
 @required
-- (id<MIOSPage>)createBrowser:(id<MIOSBrowser>)browser configuration:(WKWebViewConfiguration *)configuration __attribute__((swift_name("create(browser:configuration:)")));
+- (id<PageProtocol>)createBrowser:(id<BrowserProtocol>)browser configuration:(WKWebViewConfiguration *)configuration __attribute__((swift_name("create(browser:configuration:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -788,39 +778,37 @@ __attribute__((swift_name("Response")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Browser_Event")))
-@interface MIOSBrowserEvent : MIOSKotlinEnum<MIOSBrowserEvent *>
+@interface BrowserEvent : MIOSKotlinEnum<BrowserEvent *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) MIOSBrowserEvent *page __attribute__((swift_name("page")));
-@property (class, readonly) MIOSBrowserEvent *closed __attribute__((swift_name("closed")));
-+ (MIOSKotlinArray<MIOSBrowserEvent *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<MIOSBrowserEvent *> *entries __attribute__((swift_name("entries")));
+@property (class, readonly) BrowserEvent *page __attribute__((swift_name("page")));
+@property (class, readonly) BrowserEvent *closed __attribute__((swift_name("closed")));
++ (MIOSKotlinArray<BrowserEvent *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BrowserEvent *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Page__Event")))
-@interface MIOSPage_Event : MIOSKotlinEnum<MIOSPage_Event *>
+@interface PageEvent : MIOSKotlinEnum<PageEvent *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) MIOSPage_Event *console __attribute__((swift_name("console")));
-@property (class, readonly) MIOSPage_Event *close __attribute__((swift_name("close")));
-@property (class, readonly) MIOSPage_Event *closed __attribute__((swift_name("closed")));
-@property (class, readonly) MIOSPage_Event *dispatch __attribute__((swift_name("dispatch")));
-@property (class, readonly) MIOSPage_Event *domcontentloaded __attribute__((swift_name("domcontentloaded")));
-@property (class, readonly) MIOSPage_Event *started __attribute__((swift_name("started")));
-@property (class, readonly) MIOSPage_Event *finished __attribute__((swift_name("finished")));
-@property (class, readonly) MIOSPage_Event *load_ __attribute__((swift_name("load_")));
-@property (class, readonly) MIOSPage_Event *locationchange __attribute__((swift_name("locationchange")));
-@property (class, readonly) MIOSPage_Event *domchange __attribute__((swift_name("domchange")));
-@property (class, readonly) MIOSPage_Event *progress __attribute__((swift_name("progress")));
-@property (class, readonly) MIOSPage_Event *popup __attribute__((swift_name("popup")));
-@property (class, readonly) MIOSPage_Event *visible __attribute__((swift_name("visible")));
-@property (class, readonly) MIOSPage_Event *hostblocked __attribute__((swift_name("hostblocked")));
-+ (MIOSKotlinArray<MIOSPage_Event *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<MIOSPage_Event *> *entries __attribute__((swift_name("entries")));
+@property (class, readonly) PageEvent *console __attribute__((swift_name("console")));
+@property (class, readonly) PageEvent *close __attribute__((swift_name("close")));
+@property (class, readonly) PageEvent *closed __attribute__((swift_name("closed")));
+@property (class, readonly) PageEvent *dispatch __attribute__((swift_name("dispatch")));
+@property (class, readonly) PageEvent *domcontentloaded __attribute__((swift_name("domcontentloaded")));
+@property (class, readonly) PageEvent *started __attribute__((swift_name("started")));
+@property (class, readonly) PageEvent *finished __attribute__((swift_name("finished")));
+@property (class, readonly) PageEvent *load_ __attribute__((swift_name("load_")));
+@property (class, readonly) PageEvent *locationchange __attribute__((swift_name("locationchange")));
+@property (class, readonly) PageEvent *domchange __attribute__((swift_name("domchange")));
+@property (class, readonly) PageEvent *progress __attribute__((swift_name("progress")));
+@property (class, readonly) PageEvent *popup __attribute__((swift_name("popup")));
+@property (class, readonly) PageEvent *visible __attribute__((swift_name("visible")));
+@property (class, readonly) PageEvent *hostblocked __attribute__((swift_name("hostblocked")));
++ (MIOSKotlinArray<PageEvent *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PageEvent *> *entries __attribute__((swift_name("entries")));
 @end
 
 
@@ -829,11 +817,10 @@ __attribute__((swift_name("Page__Event")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Page__Message")))
-@interface MIOSPage_Message : MIOSBase
+@interface PageBaseMessage : MIOSBase
 - (instancetype)initWithMethod:(NSString *)method params:(NSArray<MIOSKotlinx_serialization_jsonJsonElement *> *)params __attribute__((swift_name("init(method:params:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MIOSPage_MessageCompanion *companion __attribute__((swift_name("companion")));
-- (MIOSPage_Message *)doCopyMethod:(NSString *)method params:(NSArray<MIOSKotlinx_serialization_jsonJsonElement *> *)params __attribute__((swift_name("doCopy(method:params:)")));
+@property (class, readonly, getter=companion) PageBaseMessageCompanion *companion __attribute__((swift_name("companion")));
+- (PageBaseMessage *)doCopyMethod:(NSString *)method params:(NSArray<MIOSKotlinx_serialization_jsonJsonElement *> *)params __attribute__((swift_name("doCopy(method:params:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -842,19 +829,18 @@ __attribute__((swift_name("Page__Message")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Page__Message.Companion")))
-@interface MIOSPage_MessageCompanion : MIOSBase
+__attribute__((swift_name("PageBaseMessage.Companion")))
+@interface PageBaseMessageCompanion : MIOSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MIOSPage_MessageCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) PageBaseMessageCompanion *shared __attribute__((swift_name("shared")));
 - (id<MIOSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
-__attribute__((swift_name("BrowserFactory")))
-@protocol MIOSBrowserFactory
+@protocol BrowserFactoryProtocol
 @required
-- (id<MIOSBrowser>)createMuppet:(id<MIOSMuppet>)muppet __attribute__((swift_name("create(muppet:)")));
+- (id<BrowserProtocol>)createMuppet:(id<MuppetProtocol>)muppet __attribute__((swift_name("create(muppet:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
@@ -900,7 +886,7 @@ __attribute__((swift_name("Ktor_client_coreHttpClient")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BridgeKt")))
 @interface MIOSBridgeKt : MIOSBase
-+ (void)injectMuppet:(id<MIOSMuppet>)muppet page:(id<MIOSPage>)page factory:(id<MIOSBrowserFactory>)factory __attribute__((swift_name("inject(muppet:page:factory:)")));
++ (void)injectMuppet:(id<MuppetProtocol>)muppet page:(id<PageProtocol>)page factory:(id<BrowserFactoryProtocol>)factory __attribute__((swift_name("inject(muppet:page:factory:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
