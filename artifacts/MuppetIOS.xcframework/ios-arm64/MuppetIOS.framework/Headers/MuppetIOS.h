@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MIOSEmitterEvent<T>, MIOSKotlinEnum<E>, MIOSEmitter<T>, BrowserBase<T>, UIViewController, WKWebViewConfiguration, UINavigationController, WKWebView, MIOSKotlinEnumCompanion, MIOSConstants, MIOSKotlinArray<T>, MuppetBase<T>, MIOSKtor_httpCookie, MIOSResponse, MIOSKtor_client_coreHttpClient, PageOptions, PageBase<T>, Browser, MIOSHttpCookiesCompanion, MIOSKtor_httpUrl, MIOSKtor_utilsAttributeKey<T>, MIOSHttpCookies, MIOSHttpCookiesConfig, MIOSRequest, MIOSKotlinx_serialization_jsonJsonElement, BrowserEvent, PageEvent, PageBaseMessageCompanion, PageBaseMessage, MIOSKtor_client_coreHttpClientEngineConfig, MIOSKtor_client_coreHttpClientConfig<T>, MIOSKtor_eventsEvents, MIOSKtor_client_coreHttpReceivePipeline, MIOSKtor_client_coreHttpRequestPipeline, MIOSKtor_client_coreHttpResponsePipeline, MIOSKtor_client_coreHttpSendPipeline, MIOSKotlinThrowable, MIOSKotlinException, MIOSKotlinRuntimeException, MIOSKotlinIllegalStateException, MIOSKtor_httpCookieEncoding, MIOSKtor_utilsGMTDate, MIOSKtor_httpCookieCompanion, MIOSKotlinCancellationException, MIOSKtor_httpUrlCompanion, MIOSKtor_httpURLProtocol, MIOSKtor_utilsTypeInfo, MIOSKotlinx_serialization_jsonJsonElementCompanion, MIOSKtor_client_coreHttpRequestData, MIOSKtor_client_coreHttpResponseData, MIOSKotlinx_coroutines_coreCoroutineDispatcher, MIOSKtor_client_coreProxyConfig, MIOSKtor_eventsEventDefinition<T>, MIOSKtor_utilsPipelinePhase, MIOSKtor_utilsPipeline<TSubject, TContext>, MIOSKtor_client_coreHttpReceivePipelinePhases, MIOSKtor_client_coreHttpResponse, MIOSKotlinUnit, MIOSKtor_client_coreHttpRequestPipelinePhases, MIOSKtor_client_coreHttpRequestBuilder, MIOSKtor_client_coreHttpResponsePipelinePhases, MIOSKtor_client_coreHttpResponseContainer, MIOSKtor_client_coreHttpClientCall, MIOSKtor_client_coreHttpSendPipelinePhases, MIOSKtor_utilsWeekDay, MIOSKtor_utilsMonth, MIOSKtor_utilsGMTDateCompanion, MIOSKtor_httpURLProtocolCompanion, MIOSKotlinx_serialization_coreSerializersModule, MIOSKotlinx_serialization_coreSerialKind, MIOSKotlinNothing, MIOSKtor_httpHttpMethod, MIOSKtor_httpOutgoingContent, MIOSKtor_httpHttpStatusCode, MIOSKtor_httpHttpProtocolVersion, MIOSKotlinAbstractCoroutineContextElement, MIOSKotlinx_coroutines_coreCoroutineDispatcherKey, MIOSKtor_httpHeadersBuilder, MIOSKtor_client_coreHttpRequestBuilderCompanion, MIOSKtor_httpURLBuilder, MIOSKtor_client_coreHttpClientCallCompanion, MIOSKtor_utilsWeekDayCompanion, MIOSKtor_utilsMonthCompanion, MIOSKotlinKTypeProjection, MIOSKtor_httpHttpMethodCompanion, MIOSKtor_httpContentType, MIOSKtor_httpHttpStatusCodeCompanion, MIOSKtor_httpHttpProtocolVersionCompanion, MIOSKotlinAbstractCoroutineContextKey<B, E>, MIOSKtor_utilsStringValuesBuilderImpl, MIOSKtor_httpURLBuilderCompanion, MIOSKotlinKVariance, MIOSKotlinKTypeProjectionCompanion, MIOSKtor_httpHeaderValueParam, MIOSKtor_httpHeaderValueWithParametersCompanion, MIOSKtor_httpHeaderValueWithParameters, MIOSKtor_httpContentTypeCompanion, MIOSKotlinByteArray, MIOSKotlinx_io_coreBuffer, MIOSKotlinByteIterator;
+@class MIOSEmitterEvent<T>, MIOSKotlinEnum<E>, MIOSEmitter<T>, BrowserBase<T>, UIViewController, WKWebViewConfiguration, UINavigationController, WKWebView, MIOSKotlinEnumCompanion, MIOSConstants, MIOSKotlinArray<T>, MuppetBase<T>, MIOSKtor_httpCookie, MIOSResponse, MIOSKtor_client_coreHttpClient, PageOptions, PageBase<T>, Browser, MIOSHttpCookiesCompanion, MIOSKtor_httpUrl, MIOSKtor_utilsAttributeKey<T>, MIOSHttpCookies, MIOSHttpCookiesConfig, MIOSRequest, MIOSKotlinByteArray, MIOSKotlinx_serialization_jsonJsonElement, BrowserEvent, PageEvent, PageBaseMessageCompanion, PageBaseMessage, MIOSKtor_client_coreHttpClientEngineConfig, MIOSKtor_client_coreHttpClientConfig<T>, MIOSKtor_eventsEvents, MIOSKtor_client_coreHttpReceivePipeline, MIOSKtor_client_coreHttpRequestPipeline, MIOSKtor_client_coreHttpResponsePipeline, MIOSKtor_client_coreHttpSendPipeline, MIOSKotlinThrowable, MIOSKotlinException, MIOSKotlinRuntimeException, MIOSKotlinIllegalStateException, MIOSKtor_httpCookieEncoding, MIOSKtor_utilsGMTDate, MIOSKtor_httpCookieCompanion, MIOSKotlinCancellationException, MIOSKtor_httpUrlCompanion, MIOSKtor_httpURLProtocol, MIOSKtor_utilsTypeInfo, MIOSKotlinByteIterator, MIOSKotlinx_serialization_jsonJsonElementCompanion, MIOSKtor_client_coreHttpRequestData, MIOSKtor_client_coreHttpResponseData, MIOSKotlinx_coroutines_coreCoroutineDispatcher, MIOSKtor_client_coreProxyConfig, MIOSKtor_eventsEventDefinition<T>, MIOSKtor_utilsPipelinePhase, MIOSKtor_utilsPipeline<TSubject, TContext>, MIOSKtor_client_coreHttpReceivePipelinePhases, MIOSKtor_client_coreHttpResponse, MIOSKotlinUnit, MIOSKtor_client_coreHttpRequestPipelinePhases, MIOSKtor_client_coreHttpRequestBuilder, MIOSKtor_client_coreHttpResponsePipelinePhases, MIOSKtor_client_coreHttpResponseContainer, MIOSKtor_client_coreHttpClientCall, MIOSKtor_client_coreHttpSendPipelinePhases, MIOSKtor_utilsWeekDay, MIOSKtor_utilsMonth, MIOSKtor_utilsGMTDateCompanion, MIOSKtor_httpURLProtocolCompanion, MIOSKotlinx_serialization_coreSerializersModule, MIOSKotlinx_serialization_coreSerialKind, MIOSKotlinNothing, MIOSKtor_httpHttpMethod, MIOSKtor_httpOutgoingContent, MIOSKtor_httpHttpStatusCode, MIOSKtor_httpHttpProtocolVersion, MIOSKotlinAbstractCoroutineContextElement, MIOSKotlinx_coroutines_coreCoroutineDispatcherKey, MIOSKtor_httpHeadersBuilder, MIOSKtor_client_coreHttpRequestBuilderCompanion, MIOSKtor_httpURLBuilder, MIOSKtor_client_coreHttpClientCallCompanion, MIOSKtor_utilsWeekDayCompanion, MIOSKtor_utilsMonthCompanion, MIOSKotlinKTypeProjection, MIOSKtor_httpHttpMethodCompanion, MIOSKtor_httpContentType, MIOSKtor_httpHttpStatusCodeCompanion, MIOSKtor_httpHttpProtocolVersionCompanion, MIOSKotlinAbstractCoroutineContextKey<B, E>, MIOSKtor_utilsStringValuesBuilderImpl, MIOSKtor_httpURLBuilderCompanion, MIOSKotlinKVariance, MIOSKotlinKTypeProjectionCompanion, MIOSKtor_httpHeaderValueParam, MIOSKtor_httpHeaderValueWithParametersCompanion, MIOSKtor_httpHeaderValueWithParameters, MIOSKtor_httpContentTypeCompanion, MIOSKotlinx_io_coreBuffer;
 
-@protocol MIOSKotlinSuspendFunction1, EmitterProtocol, PageProtocol, PageFactoryBaseProtocol, BrowserProtocol, PageFactoryProtocol, MIOSKotlinComparable, BrowserFactoryProtocol, MuppetProtocol, MIOSKotlinx_coroutines_coreDeferred, MIOSKotlinx_coroutines_coreCompletableDeferred, MIOSKotlinx_coroutines_coreCoroutineScope, MIOSKtor_ioCloseable, MIOSKtor_client_coreHttpClientPlugin, MIOSKtor_client_coreCookiesStorage, MIOSKotlinx_serialization_coreKSerializer, MIOSKotlinCoroutineContext, MIOSKtor_client_coreHttpClientEngine, MIOSKtor_client_coreHttpClientEngineCapability, MIOSKtor_utilsAttributes, MIOSKtor_client_coreClientPlugin, MIOSKotlinFunction, MIOSKotlinIterator, MIOSKotlinx_coroutines_coreSelectClause1, MIOSKotlinx_coroutines_coreChildHandle, MIOSKotlinx_coroutines_coreChildJob, MIOSKotlinx_coroutines_coreDisposableHandle, MIOSKotlinx_coroutines_coreJob, MIOSKotlinSequence, MIOSKotlinx_coroutines_coreSelectClause0, MIOSKotlinCoroutineContextKey, MIOSKotlinCoroutineContextElement, MIOSKtor_httpParameters, MIOSKotlinx_serialization_coreEncoder, MIOSKotlinx_serialization_coreSerialDescriptor, MIOSKotlinx_serialization_coreSerializationStrategy, MIOSKotlinx_serialization_coreDecoder, MIOSKotlinx_serialization_coreDeserializationStrategy, MIOSKotlinSuspendFunction2, MIOSKotlinx_coroutines_coreSelectInstance, MIOSKotlinx_coroutines_coreSelectClause, MIOSKotlinx_coroutines_coreParentJob, MIOSKotlinMapEntry, MIOSKtor_utilsStringValues, MIOSKotlinKClass, MIOSKotlinKType, MIOSKotlinx_serialization_coreCompositeEncoder, MIOSKotlinAnnotation, MIOSKotlinx_serialization_coreCompositeDecoder, MIOSKtor_httpHeaders, MIOSKotlinContinuation, MIOSKotlinContinuationInterceptor, MIOSKotlinx_coroutines_coreRunnable, MIOSKtor_httpHttpMessage, MIOSKtor_ioByteReadChannel, MIOSKtor_httpHttpMessageBuilder, MIOSKtor_client_coreHttpRequest, MIOSKotlinKDeclarationContainer, MIOSKotlinKAnnotatedElement, MIOSKotlinKClassifier, MIOSKotlinx_serialization_coreSerializersModuleCollector, MIOSKotlinx_io_coreSource, MIOSKtor_utilsStringValuesBuilder, MIOSKtor_httpParametersBuilder, MIOSKotlinx_io_coreRawSink, MIOSKotlinAutoCloseable, MIOSKotlinx_io_coreRawSource, MIOSKotlinx_io_coreSink;
+@protocol MIOSKotlinSuspendFunction1, MIOSKotlinx_coroutines_coreFlow, EmitterProtocol, MIOSKotlinx_coroutines_coreSharedFlow, PageProtocol, PageFactoryBaseProtocol, BrowserProtocol, PageFactoryProtocol, MIOSKotlinComparable, BrowserFactoryProtocol, MuppetProtocol, MIOSKotlinx_coroutines_coreDeferred, MIOSKotlinx_coroutines_coreCompletableDeferred, MIOSKotlinx_coroutines_coreCoroutineScope, MIOSKtor_ioCloseable, MIOSKtor_client_coreHttpClientPlugin, MIOSKtor_client_coreCookiesStorage, MIOSKotlinx_serialization_coreKSerializer, MIOSKotlinCoroutineContext, MIOSKtor_client_coreHttpClientEngine, MIOSKtor_client_coreHttpClientEngineCapability, MIOSKtor_utilsAttributes, MIOSKtor_client_coreClientPlugin, MIOSKotlinFunction, MIOSKotlinx_coroutines_coreFlowCollector, MIOSKotlinIterator, MIOSKotlinx_coroutines_coreSelectClause1, MIOSKotlinx_coroutines_coreChildHandle, MIOSKotlinx_coroutines_coreChildJob, MIOSKotlinx_coroutines_coreDisposableHandle, MIOSKotlinx_coroutines_coreJob, MIOSKotlinSequence, MIOSKotlinx_coroutines_coreSelectClause0, MIOSKotlinCoroutineContextKey, MIOSKotlinCoroutineContextElement, MIOSKtor_httpParameters, MIOSKotlinx_serialization_coreEncoder, MIOSKotlinx_serialization_coreSerialDescriptor, MIOSKotlinx_serialization_coreSerializationStrategy, MIOSKotlinx_serialization_coreDecoder, MIOSKotlinx_serialization_coreDeserializationStrategy, MIOSKotlinSuspendFunction2, MIOSKotlinx_coroutines_coreSelectInstance, MIOSKotlinx_coroutines_coreSelectClause, MIOSKotlinx_coroutines_coreParentJob, MIOSKotlinMapEntry, MIOSKtor_utilsStringValues, MIOSKotlinKClass, MIOSKotlinKType, MIOSKotlinx_serialization_coreCompositeEncoder, MIOSKotlinAnnotation, MIOSKotlinx_serialization_coreCompositeDecoder, MIOSKtor_httpHeaders, MIOSKotlinContinuation, MIOSKotlinContinuationInterceptor, MIOSKotlinx_coroutines_coreRunnable, MIOSKtor_httpHttpMessage, MIOSKtor_ioByteReadChannel, MIOSKtor_httpHttpMessageBuilder, MIOSKtor_client_coreHttpRequest, MIOSKotlinKDeclarationContainer, MIOSKotlinKAnnotatedElement, MIOSKotlinKClassifier, MIOSKotlinx_serialization_coreSerializersModuleCollector, MIOSKotlinx_io_coreSource, MIOSKtor_utilsStringValuesBuilder, MIOSKtor_httpParametersBuilder, MIOSKotlinx_io_coreRawSink, MIOSKotlinAutoCloseable, MIOSKotlinx_io_coreRawSource, MIOSKotlinx_io_coreSink;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -172,6 +172,7 @@ __attribute__((swift_name("KotlinBoolean")))
 - (id<MIOSKotlinSuspendFunction1>)onType:(NSString *)type removable:(BOOL)removable handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:removable:handler_:)")));
 - (id<MIOSKotlinSuspendFunction1>)onceType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler:)")));
 - (id<MIOSKotlinSuspendFunction1>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
+@property (readonly) id<MIOSKotlinx_coroutines_coreFlow> events __attribute__((swift_name("events")));
 @end
 
 __attribute__((swift_name("Emitter")))
@@ -204,6 +205,7 @@ __attribute__((swift_name("Emitter")))
 - (id<MIOSKotlinSuspendFunction1>)onType:(NSString *)type removable:(BOOL)removable handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:removable:handler_:)")));
 - (id<MIOSKotlinSuspendFunction1>)onceType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler:)")));
 - (id<MIOSKotlinSuspendFunction1>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
+@property (readonly) id<MIOSKotlinx_coroutines_coreSharedFlow> events __attribute__((swift_name("events")));
 @end
 
 @protocol BrowserProtocol <EmitterProtocol>
@@ -419,7 +421,7 @@ __attribute__((objc_subclassing_restricted))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)requestMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects completionHandler:(void (^)(MIOSResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("request(method:url:data:headers:followRedirects:completionHandler:)")));
+- (void)requestMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects stream:(id<MIOSKotlinx_coroutines_coreFlow> _Nullable)stream completionHandler:(void (^)(MIOSResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("request(method:url:data:headers:followRedirects:stream:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -534,7 +536,7 @@ __attribute__((objc_subclassing_restricted))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)requestMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects completionHandler:(void (^)(MIOSResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("request(method:url:data:headers:followRedirects:completionHandler:)")));
+- (void)requestMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects stream:(id<MIOSKotlinx_coroutines_coreFlow> _Nullable)stream completionHandler:(void (^)(MIOSResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("request(method:url:data:headers:followRedirects:stream:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -572,6 +574,11 @@ __attribute__((objc_subclassing_restricted))
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
 @property (readonly) MIOSKtor_client_coreHttpClient *_client __attribute__((swift_name("_client")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) MIOSKtor_client_coreHttpClient *_clientNR __attribute__((swift_name("_clientNR")));
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
@@ -789,8 +796,8 @@ __attribute__((swift_name("HttpCookies.Config")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Request")))
 @interface MIOSRequest : MIOSBase
-- (instancetype)initWithMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects __attribute__((swift_name("init(method:url:data:headers:followRedirects:)"))) __attribute__((objc_designated_initializer));
-- (MIOSRequest *)doCopyMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects __attribute__((swift_name("doCopy(method:url:data:headers:followRedirects:)")));
+- (instancetype)initWithMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects stream:(id<MIOSKotlinx_coroutines_coreFlow> _Nullable)stream __attribute__((swift_name("init(method:url:data:headers:followRedirects:stream:)"))) __attribute__((objc_designated_initializer));
+- (MIOSRequest *)doCopyMethod:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects stream:(id<MIOSKotlinx_coroutines_coreFlow> _Nullable)stream __attribute__((swift_name("doCopy(method:url:data:headers:followRedirects:stream:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -798,20 +805,33 @@ __attribute__((swift_name("Request")))
 @property (readonly) BOOL followRedirects __attribute__((swift_name("followRedirects")));
 @property (readonly) NSDictionary<NSString *, NSString *> * _Nullable headers __attribute__((swift_name("headers")));
 @property (readonly) NSString *method __attribute__((swift_name("method")));
+@property (readonly) id<MIOSKotlinx_coroutines_coreFlow> _Nullable stream __attribute__((swift_name("stream")));
 @property (readonly) NSString *url __attribute__((swift_name("url")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Response")))
 @interface MIOSResponse : MIOSBase
-- (instancetype)initWithStatus:(int32_t)status headers:(NSDictionary<NSString *, NSArray<NSString *> *> * _Nullable)headers data:(NSString * _Nullable)data __attribute__((swift_name("init(status:headers:data:)"))) __attribute__((objc_designated_initializer));
-- (MIOSResponse *)doCopyStatus:(int32_t)status headers:(NSDictionary<NSString *, NSArray<NSString *> *> * _Nullable)headers data:(NSString * _Nullable)data __attribute__((swift_name("doCopy(status:headers:data:)")));
+- (instancetype)initWithStatus:(int32_t)status headers:(NSDictionary<NSString *, NSArray<NSString *> *> *)headers body:(id<MIOSKotlinx_coroutines_coreFlow>)body __attribute__((swift_name("init(status:headers:body:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bytesWithCompletionHandler:(void (^)(MIOSKotlinByteArray * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("bytes(completionHandler:)")));
+- (MIOSResponse *)doCopyStatus:(int32_t)status headers:(NSDictionary<NSString *, NSArray<NSString *> *> *)headers body:(id<MIOSKotlinx_coroutines_coreFlow>)body __attribute__((swift_name("doCopy(status:headers:body:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSDictionary<NSString *, MIOSKotlinx_serialization_jsonJsonElement *> *)jsonObject __attribute__((swift_name("jsonObject()")));
+- (NSDictionary<NSString *, MIOSKotlinx_serialization_jsonJsonElement *> *)header __attribute__((swift_name("header()")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)jsonObjectWithCompletionHandler:(void (^)(NSDictionary<NSString *, MIOSKotlinx_serialization_jsonJsonElement *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("jsonObject(completionHandler:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable data __attribute__((swift_name("data")));
-@property (readonly) NSDictionary<NSString *, NSArray<NSString *> *> * _Nullable headers __attribute__((swift_name("headers")));
+@property (readonly) id<MIOSKotlinx_coroutines_coreFlow> body __attribute__((swift_name("body")));
+@property (readonly) NSDictionary<NSString *, NSArray<NSString *> *> *headers __attribute__((swift_name("headers")));
 @property (readonly) int32_t status __attribute__((swift_name("status")));
 @end
 
@@ -970,7 +990,7 @@ __attribute__((swift_name("RequestKt")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)requestClient:(MIOSKtor_client_coreHttpClient *)client method:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects completionHandler:(void (^)(MIOSResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("request(client:method:url:data:headers:followRedirects:completionHandler:)")));
++ (void)requestClient:(MIOSKtor_client_coreHttpClient *)client method:(NSString *)method url:(NSString *)url data:(NSString * _Nullable)data headers:(NSDictionary<NSString *, NSString *> * _Nullable)headers followRedirects:(BOOL)followRedirects stream:(id<MIOSKotlinx_coroutines_coreFlow> _Nullable)stream completionHandler:(void (^)(MIOSResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("request(client:method:url:data:headers:followRedirects:stream:completionHandler:)")));
 + (NSString *)toHttps:(NSString *)receiver __attribute__((swift_name("toHttps(_:)")));
 @end
 
@@ -1049,6 +1069,23 @@ __attribute__((swift_name("KotlinSuspendFunction1")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol MIOSKotlinx_coroutines_coreFlow
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<MIOSKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
+@protocol MIOSKotlinx_coroutines_coreSharedFlow <MIOSKotlinx_coroutines_coreFlow>
+@required
+@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1254,6 +1291,19 @@ __attribute__((swift_name("Ktor_client_coreCookiesStorage")))
 - (void)getRequestUrl:(MIOSKtor_httpUrl *)requestUrl completionHandler:(void (^)(NSArray<MIOSKtor_httpCookie *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("get(requestUrl:completionHandler:)")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinByteArray")))
+@interface MIOSKotlinByteArray : MIOSBase
++ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
++ (instancetype)arrayWithSize:(int32_t)size init:(MIOSByte *(^)(MIOSInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (MIOSKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
 
 /**
  * @note annotations
@@ -1423,6 +1473,17 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
 __attribute__((swift_name("Ktor_client_coreClientPlugin")))
 @protocol MIOSKtor_client_coreClientPlugin <MIOSKtor_client_coreHttpClientPlugin>
 @required
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol MIOSKotlinx_coroutines_coreFlowCollector
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
 @end
 
 __attribute__((swift_name("KotlinIterator")))
@@ -1613,6 +1674,14 @@ __attribute__((swift_name("Ktor_utilsTypeInfo")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) id<MIOSKotlinKType> _Nullable kotlinType __attribute__((swift_name("kotlinType")));
 @property (readonly) id<MIOSKotlinKClass> type __attribute__((swift_name("type")));
+@end
+
+__attribute__((swift_name("KotlinByteIterator")))
+@interface MIOSKotlinByteIterator : MIOSBase <MIOSKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (MIOSByte *)next __attribute__((swift_name("next()")));
+- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2869,19 +2938,6 @@ __attribute__((swift_name("Ktor_httpContentType.Companion")))
 @property (readonly) MIOSKtor_httpContentType *Any __attribute__((swift_name("Any")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinByteArray")))
-@interface MIOSKotlinByteArray : MIOSBase
-+ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
-+ (instancetype)arrayWithSize:(int32_t)size init:(MIOSByte *(^)(MIOSInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (MIOSKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
-@end
-
 __attribute__((swift_name("Kotlinx_io_coreRawSink")))
 @protocol MIOSKotlinx_io_coreRawSink <MIOSKotlinAutoCloseable>
 @required
@@ -2961,14 +3017,6 @@ __attribute__((swift_name("Kotlinx_io_coreBuffer")))
 */
 @property (readonly) MIOSKotlinx_io_coreBuffer *buffer __attribute__((swift_name("buffer")));
 @property (readonly) int64_t size __attribute__((swift_name("size")));
-@end
-
-__attribute__((swift_name("KotlinByteIterator")))
-@interface MIOSKotlinByteIterator : MIOSBase <MIOSKotlinIterator>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (MIOSByte *)next __attribute__((swift_name("next()")));
-- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
 @end
 
 #pragma pop_macro("_Nullable_result")
