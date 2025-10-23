@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MIOSEmitterEvent<T>, MIOSKotlinEnum<E>, MIOSEmitter<T>, BrowserBase<T>, UIViewController, WKWebViewConfiguration, UINavigationController, WKWebView, MIOSKotlinEnumCompanion, MIOSConstants, MIOSKotlinArray<T>, MuppetBase<T>, MIOSKtor_httpCookie, MIOSResponse, MIOSKtor_client_coreHttpClient, PageOptions, PageBase<T>, Browser, MIOSHttpCookiesCompanion, MIOSKtor_httpUrl, MIOSKtor_utilsAttributeKey<T>, MIOSHttpCookies, MIOSHttpCookiesConfig, MIOSRequest, MIOSKotlinByteArray, MIOSKotlinx_serialization_jsonJsonElement, BrowserEvent, PageEvent, PageBaseMessageCompanion, PageBaseMessage, MIOSKtor_client_coreHttpClientEngineConfig, MIOSKtor_client_coreHttpClientConfig<T>, MIOSKtor_eventsEvents, MIOSKtor_client_coreHttpReceivePipeline, MIOSKtor_client_coreHttpRequestPipeline, MIOSKtor_client_coreHttpResponsePipeline, MIOSKtor_client_coreHttpSendPipeline, MIOSKotlinThrowable, MIOSKotlinException, MIOSKotlinRuntimeException, MIOSKotlinIllegalStateException, MIOSKtor_httpCookieEncoding, MIOSKtor_utilsGMTDate, MIOSKtor_httpCookieCompanion, MIOSKotlinCancellationException, MIOSKtor_httpUrlCompanion, MIOSKtor_httpURLProtocol, MIOSKtor_utilsTypeInfo, MIOSKotlinByteIterator, MIOSKotlinx_serialization_jsonJsonElementCompanion, MIOSKtor_client_coreHttpRequestData, MIOSKtor_client_coreHttpResponseData, MIOSKotlinx_coroutines_coreCoroutineDispatcher, MIOSKtor_client_coreProxyConfig, MIOSKtor_eventsEventDefinition<T>, MIOSKtor_utilsPipelinePhase, MIOSKtor_utilsPipeline<TSubject, TContext>, MIOSKtor_client_coreHttpReceivePipelinePhases, MIOSKtor_client_coreHttpResponse, MIOSKotlinUnit, MIOSKtor_client_coreHttpRequestPipelinePhases, MIOSKtor_client_coreHttpRequestBuilder, MIOSKtor_client_coreHttpResponsePipelinePhases, MIOSKtor_client_coreHttpResponseContainer, MIOSKtor_client_coreHttpClientCall, MIOSKtor_client_coreHttpSendPipelinePhases, MIOSKtor_utilsWeekDay, MIOSKtor_utilsMonth, MIOSKtor_utilsGMTDateCompanion, MIOSKtor_httpURLProtocolCompanion, MIOSKotlinx_serialization_coreSerializersModule, MIOSKotlinx_serialization_coreSerialKind, MIOSKotlinNothing, MIOSKtor_httpHttpMethod, MIOSKtor_httpOutgoingContent, MIOSKtor_httpHttpStatusCode, MIOSKtor_httpHttpProtocolVersion, MIOSKotlinAbstractCoroutineContextElement, MIOSKotlinx_coroutines_coreCoroutineDispatcherKey, MIOSKtor_httpHeadersBuilder, MIOSKtor_client_coreHttpRequestBuilderCompanion, MIOSKtor_httpURLBuilder, MIOSKtor_client_coreHttpClientCallCompanion, MIOSKtor_utilsWeekDayCompanion, MIOSKtor_utilsMonthCompanion, MIOSKotlinKTypeProjection, MIOSKtor_httpHttpMethodCompanion, MIOSKtor_httpContentType, MIOSKtor_httpHttpStatusCodeCompanion, MIOSKtor_httpHttpProtocolVersionCompanion, MIOSKotlinAbstractCoroutineContextKey<B, E>, MIOSKtor_utilsStringValuesBuilderImpl, MIOSKtor_httpURLBuilderCompanion, MIOSKotlinKVariance, MIOSKotlinKTypeProjectionCompanion, MIOSKtor_httpHeaderValueParam, MIOSKtor_httpHeaderValueWithParametersCompanion, MIOSKtor_httpHeaderValueWithParameters, MIOSKtor_httpContentTypeCompanion, MIOSKotlinx_io_coreBuffer;
+@class Browser, BrowserBase<T>, BrowserEvent, MIOSConstants, MIOSEmitter<T>, MIOSEmitterEvent<T>, MIOSHttpCookies, MIOSHttpCookiesCompanion, MIOSHttpCookiesConfig, MIOSKotlinAbstractCoroutineContextElement, MIOSKotlinAbstractCoroutineContextKey<B, E>, MIOSKotlinArray<T>, MIOSKotlinByteArray, MIOSKotlinByteIterator, MIOSKotlinCancellationException, MIOSKotlinEnum<E>, MIOSKotlinEnumCompanion, MIOSKotlinException, MIOSKotlinIllegalStateException, MIOSKotlinKTypeProjection, MIOSKotlinKTypeProjectionCompanion, MIOSKotlinKVariance, MIOSKotlinNothing, MIOSKotlinRuntimeException, MIOSKotlinThrowable, MIOSKotlinUnit, MIOSKotlinx_coroutines_coreCoroutineDispatcher, MIOSKotlinx_coroutines_coreCoroutineDispatcherKey, MIOSKotlinx_io_coreBuffer, MIOSKotlinx_serialization_coreSerialKind, MIOSKotlinx_serialization_coreSerializersModule, MIOSKotlinx_serialization_jsonJsonElement, MIOSKotlinx_serialization_jsonJsonElementCompanion, MIOSKtor_client_coreHttpClient, MIOSKtor_client_coreHttpClientCall, MIOSKtor_client_coreHttpClientCallCompanion, MIOSKtor_client_coreHttpClientConfig<T>, MIOSKtor_client_coreHttpClientEngineConfig, MIOSKtor_client_coreHttpReceivePipeline, MIOSKtor_client_coreHttpReceivePipelinePhases, MIOSKtor_client_coreHttpRequestBuilder, MIOSKtor_client_coreHttpRequestBuilderCompanion, MIOSKtor_client_coreHttpRequestData, MIOSKtor_client_coreHttpRequestPipeline, MIOSKtor_client_coreHttpRequestPipelinePhases, MIOSKtor_client_coreHttpResponse, MIOSKtor_client_coreHttpResponseContainer, MIOSKtor_client_coreHttpResponseData, MIOSKtor_client_coreHttpResponsePipeline, MIOSKtor_client_coreHttpResponsePipelinePhases, MIOSKtor_client_coreHttpSendPipeline, MIOSKtor_client_coreHttpSendPipelinePhases, MIOSKtor_client_coreProxyConfig, MIOSKtor_eventsEventDefinition<T>, MIOSKtor_eventsEvents, MIOSKtor_httpContentType, MIOSKtor_httpContentTypeCompanion, MIOSKtor_httpCookie, MIOSKtor_httpCookieCompanion, MIOSKtor_httpCookieEncoding, MIOSKtor_httpHeaderValueParam, MIOSKtor_httpHeaderValueWithParameters, MIOSKtor_httpHeaderValueWithParametersCompanion, MIOSKtor_httpHeadersBuilder, MIOSKtor_httpHttpMethod, MIOSKtor_httpHttpMethodCompanion, MIOSKtor_httpHttpProtocolVersion, MIOSKtor_httpHttpProtocolVersionCompanion, MIOSKtor_httpHttpStatusCode, MIOSKtor_httpHttpStatusCodeCompanion, MIOSKtor_httpOutgoingContent, MIOSKtor_httpURLBuilder, MIOSKtor_httpURLBuilderCompanion, MIOSKtor_httpURLProtocol, MIOSKtor_httpURLProtocolCompanion, MIOSKtor_httpUrl, MIOSKtor_httpUrlCompanion, MIOSKtor_utilsAttributeKey<T>, MIOSKtor_utilsGMTDate, MIOSKtor_utilsGMTDateCompanion, MIOSKtor_utilsMonth, MIOSKtor_utilsMonthCompanion, MIOSKtor_utilsPipeline<TSubject, TContext>, MIOSKtor_utilsPipelinePhase, MIOSKtor_utilsStringValuesBuilderImpl, MIOSKtor_utilsTypeInfo, MIOSKtor_utilsWeekDay, MIOSKtor_utilsWeekDayCompanion, MIOSRequest, MIOSResponse, MuppetBase<T>, PageBase<T>, PageBaseMessage, PageBaseMessageCompanion, PageEvent, PageOptions, UINavigationController, UIViewController, WKWebView, WKWebViewConfiguration;
 
-@protocol MIOSKotlinSuspendFunction1, MIOSKotlinx_coroutines_coreFlow, EmitterProtocol, MIOSKotlinx_coroutines_coreSharedFlow, PageProtocol, PageFactoryBaseProtocol, BrowserProtocol, PageFactoryProtocol, MIOSKotlinComparable, BrowserFactoryProtocol, MuppetProtocol, MIOSKotlinx_coroutines_coreDeferred, MIOSKotlinx_coroutines_coreCompletableDeferred, MIOSKotlinx_coroutines_coreCoroutineScope, MIOSKtor_ioCloseable, MIOSKtor_client_coreHttpClientPlugin, MIOSKtor_client_coreCookiesStorage, MIOSKotlinx_serialization_coreKSerializer, MIOSKotlinCoroutineContext, MIOSKtor_client_coreHttpClientEngine, MIOSKtor_client_coreHttpClientEngineCapability, MIOSKtor_utilsAttributes, MIOSKtor_client_coreClientPlugin, MIOSKotlinFunction, MIOSKotlinx_coroutines_coreFlowCollector, MIOSKotlinIterator, MIOSKotlinx_coroutines_coreSelectClause1, MIOSKotlinx_coroutines_coreChildHandle, MIOSKotlinx_coroutines_coreChildJob, MIOSKotlinx_coroutines_coreDisposableHandle, MIOSKotlinx_coroutines_coreJob, MIOSKotlinSequence, MIOSKotlinx_coroutines_coreSelectClause0, MIOSKotlinCoroutineContextKey, MIOSKotlinCoroutineContextElement, MIOSKtor_httpParameters, MIOSKotlinx_serialization_coreEncoder, MIOSKotlinx_serialization_coreSerialDescriptor, MIOSKotlinx_serialization_coreSerializationStrategy, MIOSKotlinx_serialization_coreDecoder, MIOSKotlinx_serialization_coreDeserializationStrategy, MIOSKotlinSuspendFunction2, MIOSKotlinx_coroutines_coreSelectInstance, MIOSKotlinx_coroutines_coreSelectClause, MIOSKotlinx_coroutines_coreParentJob, MIOSKotlinMapEntry, MIOSKtor_utilsStringValues, MIOSKotlinKClass, MIOSKotlinKType, MIOSKotlinx_serialization_coreCompositeEncoder, MIOSKotlinAnnotation, MIOSKotlinx_serialization_coreCompositeDecoder, MIOSKtor_httpHeaders, MIOSKotlinContinuation, MIOSKotlinContinuationInterceptor, MIOSKotlinx_coroutines_coreRunnable, MIOSKtor_httpHttpMessage, MIOSKtor_ioByteReadChannel, MIOSKtor_httpHttpMessageBuilder, MIOSKtor_client_coreHttpRequest, MIOSKotlinKDeclarationContainer, MIOSKotlinKAnnotatedElement, MIOSKotlinKClassifier, MIOSKotlinx_serialization_coreSerializersModuleCollector, MIOSKotlinx_io_coreSource, MIOSKtor_utilsStringValuesBuilder, MIOSKtor_httpParametersBuilder, MIOSKotlinx_io_coreRawSink, MIOSKotlinAutoCloseable, MIOSKotlinx_io_coreRawSource, MIOSKotlinx_io_coreSink;
+@protocol BrowserFactoryProtocol, BrowserProtocol, EmitterProtocol, MIOSKotlinAnnotation, MIOSKotlinAutoCloseable, MIOSKotlinComparable, MIOSKotlinContinuation, MIOSKotlinContinuationInterceptor, MIOSKotlinCoroutineContext, MIOSKotlinCoroutineContextElement, MIOSKotlinCoroutineContextKey, MIOSKotlinFunction, MIOSKotlinIterator, MIOSKotlinKAnnotatedElement, MIOSKotlinKClass, MIOSKotlinKClassifier, MIOSKotlinKDeclarationContainer, MIOSKotlinKType, MIOSKotlinMapEntry, MIOSKotlinSequence, MIOSKotlinSuspendFunction1, MIOSKotlinSuspendFunction2, MIOSKotlinx_coroutines_coreChildHandle, MIOSKotlinx_coroutines_coreChildJob, MIOSKotlinx_coroutines_coreCompletableDeferred, MIOSKotlinx_coroutines_coreCoroutineScope, MIOSKotlinx_coroutines_coreDeferred, MIOSKotlinx_coroutines_coreDisposableHandle, MIOSKotlinx_coroutines_coreFlow, MIOSKotlinx_coroutines_coreFlowCollector, MIOSKotlinx_coroutines_coreJob, MIOSKotlinx_coroutines_coreParentJob, MIOSKotlinx_coroutines_coreRunnable, MIOSKotlinx_coroutines_coreSelectClause, MIOSKotlinx_coroutines_coreSelectClause0, MIOSKotlinx_coroutines_coreSelectClause1, MIOSKotlinx_coroutines_coreSelectInstance, MIOSKotlinx_coroutines_coreSharedFlow, MIOSKotlinx_io_coreRawSink, MIOSKotlinx_io_coreRawSource, MIOSKotlinx_io_coreSink, MIOSKotlinx_io_coreSource, MIOSKotlinx_serialization_coreCompositeDecoder, MIOSKotlinx_serialization_coreCompositeEncoder, MIOSKotlinx_serialization_coreDecoder, MIOSKotlinx_serialization_coreDeserializationStrategy, MIOSKotlinx_serialization_coreEncoder, MIOSKotlinx_serialization_coreKSerializer, MIOSKotlinx_serialization_coreSerialDescriptor, MIOSKotlinx_serialization_coreSerializationStrategy, MIOSKotlinx_serialization_coreSerializersModuleCollector, MIOSKtor_client_coreClientPlugin, MIOSKtor_client_coreCookiesStorage, MIOSKtor_client_coreHttpClientEngine, MIOSKtor_client_coreHttpClientEngineCapability, MIOSKtor_client_coreHttpClientPlugin, MIOSKtor_client_coreHttpRequest, MIOSKtor_httpHeaders, MIOSKtor_httpHttpMessage, MIOSKtor_httpHttpMessageBuilder, MIOSKtor_httpParameters, MIOSKtor_httpParametersBuilder, MIOSKtor_ioByteReadChannel, MIOSKtor_ioCloseable, MIOSKtor_ioJvmSerializable, MIOSKtor_utilsAttributes, MIOSKtor_utilsStringValues, MIOSKtor_utilsStringValuesBuilder, MuppetProtocol, PageFactoryBaseProtocol, PageFactoryProtocol, PageProtocol;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -164,14 +164,11 @@ __attribute__((swift_name("KotlinBoolean")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)emitType:(NSString *)type data:(id _Nullable)data completionHandler_:(void (^)(MIOSEmitterEvent<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("emit(type:data:completionHandler_:)")));
-- (void)offType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1> _Nullable)handler __attribute__((swift_name("off(type:handler:)")));
-- (void)offType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1> _Nullable)handler __attribute__((swift_name("off(type:handler_:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler_:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type removable:(BOOL)removable handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:removable:handler:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(NSString *)type removable:(BOOL)removable handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:removable:handler_:)")));
-- (id<MIOSKotlinSuspendFunction1>)onceType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler:)")));
-- (id<MIOSKotlinSuspendFunction1>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
+- (void)offJob:(id<MIOSKotlinx_coroutines_coreJob>)job __attribute__((swift_name("off(job:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler_:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onceType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
 @property (readonly) id<MIOSKotlinx_coroutines_coreFlow> events __attribute__((swift_name("events")));
 @end
 
@@ -197,14 +194,11 @@ __attribute__((swift_name("Emitter")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)emitType:(NSString *)type data:(T _Nullable)data completionHandler_:(void (^)(MIOSEmitterEvent<T> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("emit(type:data:completionHandler_:)")));
-- (void)offType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1> _Nullable)handler __attribute__((swift_name("off(type:handler:)")));
-- (void)offType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1> _Nullable)handler __attribute__((swift_name("off(type:handler_:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler_:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type removable:(BOOL)removable handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:removable:handler:)")));
-- (id<MIOSKotlinSuspendFunction1>)onType:(NSString *)type removable:(BOOL)removable handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:removable:handler_:)")));
-- (id<MIOSKotlinSuspendFunction1>)onceType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler:)")));
-- (id<MIOSKotlinSuspendFunction1>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
+- (void)offJob:(id<MIOSKotlinx_coroutines_coreJob>)job __attribute__((swift_name("off(job:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("on(type:handler_:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onceType:(MIOSKotlinEnum<MIOSKotlinEnum *> *)type handler:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler:)")));
+- (id<MIOSKotlinx_coroutines_coreJob>)onceType:(NSString *)type handler_:(id<MIOSKotlinSuspendFunction1>)handler __attribute__((swift_name("once(type:handler_:)")));
 @property (readonly) id<MIOSKotlinx_coroutines_coreSharedFlow> events __attribute__((swift_name("events")));
 @end
 
@@ -745,10 +739,20 @@ __attribute__((swift_name("ForceHttpsConfig")))
 @property NSSet<NSString *> *bypass __attribute__((swift_name("bypass")));
 @end
 
-__attribute__((swift_name("Ktor_ioCloseable")))
-@protocol MIOSKtor_ioCloseable
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="2.0")
+*/
+__attribute__((swift_name("KotlinAutoCloseable")))
+@protocol MIOSKotlinAutoCloseable
 @required
 - (void)close __attribute__((swift_name("close()")));
+@end
+
+__attribute__((swift_name("Ktor_ioCloseable")))
+@protocol MIOSKtor_ioCloseable <MIOSKotlinAutoCloseable>
+@required
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1055,86 +1059,6 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MIOSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
-__attribute__((swift_name("KotlinFunction")))
-@protocol MIOSKotlinFunction
-@required
-@end
-
-__attribute__((swift_name("KotlinSuspendFunction1")))
-@protocol MIOSKotlinSuspendFunction1 <MIOSKotlinFunction>
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
-@protocol MIOSKotlinx_coroutines_coreFlow
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)collectCollector:(id<MIOSKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
-@protocol MIOSKotlinx_coroutines_coreSharedFlow <MIOSKotlinx_coroutines_coreFlow>
-@required
-@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface MIOSKotlinEnumCompanion : MIOSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) MIOSKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface MIOSKotlinArray<T> : MIOSBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(MIOSInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<MIOSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpCookie")))
-@interface MIOSKtor_httpCookie : MIOSBase
-- (instancetype)initWithName:(NSString *)name value:(NSString *)value encoding:(MIOSKtor_httpCookieEncoding *)encoding maxAge:(MIOSInt * _Nullable)maxAge expires:(MIOSKtor_utilsGMTDate * _Nullable)expires domain:(NSString * _Nullable)domain path:(NSString * _Nullable)path secure:(BOOL)secure httpOnly:(BOOL)httpOnly extensions:(NSDictionary<NSString *, id> *)extensions __attribute__((swift_name("init(name:value:encoding:maxAge:expires:domain:path:secure:httpOnly:extensions:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) MIOSKtor_httpCookieCompanion *companion __attribute__((swift_name("companion")));
-- (MIOSKtor_httpCookie *)doCopyName:(NSString *)name value:(NSString *)value encoding:(MIOSKtor_httpCookieEncoding *)encoding maxAge:(MIOSInt * _Nullable)maxAge expires:(MIOSKtor_utilsGMTDate * _Nullable)expires domain:(NSString * _Nullable)domain path:(NSString * _Nullable)path secure:(BOOL)secure httpOnly:(BOOL)httpOnly extensions:(NSDictionary<NSString *, id> *)extensions __attribute__((swift_name("doCopy(name:value:encoding:maxAge:expires:domain:path:secure:httpOnly:extensions:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable domain __attribute__((swift_name("domain")));
-@property (readonly) MIOSKtor_httpCookieEncoding *encoding __attribute__((swift_name("encoding")));
-@property (readonly) MIOSKtor_utilsGMTDate * _Nullable expires __attribute__((swift_name("expires")));
-@property (readonly) NSDictionary<NSString *, id> *extensions __attribute__((swift_name("extensions")));
-@property (readonly) BOOL httpOnly __attribute__((swift_name("httpOnly")));
-@property (readonly) MIOSInt * _Nullable maxAge __attribute__((swift_name("maxAge")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString * _Nullable path __attribute__((swift_name("path")));
-@property (readonly) BOOL secure __attribute__((swift_name("secure")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
 
 /**
  * @note annotations
@@ -1199,6 +1123,91 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 @property (readonly, getter=parent_) id<MIOSKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
 @end
 
+__attribute__((swift_name("KotlinFunction")))
+@protocol MIOSKotlinFunction
+@required
+@end
+
+__attribute__((swift_name("KotlinSuspendFunction1")))
+@protocol MIOSKotlinSuspendFunction1 <MIOSKotlinFunction>
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol MIOSKotlinx_coroutines_coreFlow
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<MIOSKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
+@protocol MIOSKotlinx_coroutines_coreSharedFlow <MIOSKotlinx_coroutines_coreFlow>
+@required
+@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface MIOSKotlinEnumCompanion : MIOSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MIOSKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface MIOSKotlinArray<T> : MIOSBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(MIOSInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<MIOSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((swift_name("Ktor_ioJvmSerializable")))
+@protocol MIOSKtor_ioJvmSerializable
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpCookie")))
+@interface MIOSKtor_httpCookie : MIOSBase <MIOSKtor_ioJvmSerializable>
+- (instancetype)initWithName:(NSString *)name value:(NSString *)value encoding:(MIOSKtor_httpCookieEncoding *)encoding maxAge:(MIOSInt * _Nullable)maxAge expires:(MIOSKtor_utilsGMTDate * _Nullable)expires domain:(NSString * _Nullable)domain path:(NSString * _Nullable)path secure:(BOOL)secure httpOnly:(BOOL)httpOnly extensions:(NSDictionary<NSString *, id> *)extensions __attribute__((swift_name("init(name:value:encoding:maxAge:expires:domain:path:secure:httpOnly:extensions:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) MIOSKtor_httpCookieCompanion *companion __attribute__((swift_name("companion")));
+- (MIOSKtor_httpCookie *)doCopyName:(NSString *)name value:(NSString *)value encoding:(MIOSKtor_httpCookieEncoding *)encoding maxAge:(MIOSInt * _Nullable)maxAge expires:(MIOSKtor_utilsGMTDate * _Nullable)expires domain:(NSString * _Nullable)domain path:(NSString * _Nullable)path secure:(BOOL)secure httpOnly:(BOOL)httpOnly extensions:(NSDictionary<NSString *, id> *)extensions __attribute__((swift_name("doCopy(name:value:encoding:maxAge:expires:domain:path:secure:httpOnly:extensions:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable domain __attribute__((swift_name("domain")));
+@property (readonly) MIOSKtor_httpCookieEncoding *encoding __attribute__((swift_name("encoding")));
+@property (readonly) MIOSKtor_utilsGMTDate * _Nullable expires __attribute__((swift_name("expires")));
+@property (readonly) NSDictionary<NSString *, id> *extensions __attribute__((swift_name("extensions")));
+@property (readonly) BOOL httpOnly __attribute__((swift_name("httpOnly")));
+@property (readonly) MIOSInt * _Nullable maxAge __attribute__((swift_name("maxAge")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable path __attribute__((swift_name("path")));
+@property (readonly) BOOL secure __attribute__((swift_name("secure")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
 __attribute__((swift_name("Kotlinx_coroutines_coreDeferred")))
 @protocol MIOSKotlinx_coroutines_coreDeferred <MIOSKotlinx_coroutines_coreJob>
 @required
@@ -1230,9 +1239,14 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCompletableDeferred")))
 - (BOOL)completeExceptionallyException:(MIOSKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=io/ktor/http/UrlSerializer))
+*/
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpUrl")))
-@interface MIOSKtor_httpUrl : MIOSBase
+@interface MIOSKtor_httpUrl : MIOSBase <MIOSKtor_ioJvmSerializable>
 @property (class, readonly, getter=companion) MIOSKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1389,6 +1403,7 @@ __attribute__((swift_name("Ktor_utilsAttributes")))
 - (id _Nullable)getOrNullKey:(MIOSKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getOrNull(key:)")));
 - (void)putKey:(MIOSKtor_utilsAttributeKey<id> *)key value:(id)value __attribute__((swift_name("put(key:value:)")));
 - (void)removeKey:(MIOSKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("remove(key:)")));
+- (void)setKey:(MIOSKtor_utilsAttributeKey<id> *)key value:(id)value __attribute__((swift_name("set(key:value:)")));
 - (id)takeKey:(MIOSKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("take(key:)")));
 - (id _Nullable)takeOrNullKey:(MIOSKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("takeOrNull(key:)")));
 @property (readonly) NSArray<MIOSKtor_utilsAttributeKey<id> *> *allKeys __attribute__((swift_name("allKeys")));
@@ -1475,6 +1490,80 @@ __attribute__((swift_name("Ktor_client_coreClientPlugin")))
 @required
 @end
 
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol MIOSKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol MIOSKotlinx_coroutines_coreChildHandle <MIOSKotlinx_coroutines_coreDisposableHandle>
+@required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+- (BOOL)childCancelledCause:(MIOSKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+@property (readonly, getter=parent_) id<MIOSKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol MIOSKotlinx_coroutines_coreChildJob <MIOSKotlinx_coroutines_coreJob>
+@required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+- (void)parentCancelledParentJob:(id<MIOSKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol MIOSKotlinSequence
+@required
+- (id<MIOSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause")))
+@protocol MIOSKotlinx_coroutines_coreSelectClause
+@required
+@property (readonly) id clauseObject __attribute__((swift_name("clauseObject")));
+@property (readonly) MIOSKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<MIOSKotlinx_coroutines_coreSelectInstance>, id _Nullable, id _Nullable))(MIOSKotlinThrowable *, id _Nullable, id<MIOSKotlinCoroutineContext>) __attribute__((swift_name("onCancellationConstructor")));
+@property (readonly) id _Nullable (^processResFunc)(id, id _Nullable, id _Nullable) __attribute__((swift_name("processResFunc")));
+@property (readonly) void (^regFunc)(id, id<MIOSKotlinx_coroutines_coreSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol MIOSKotlinx_coroutines_coreSelectClause0 <MIOSKotlinx_coroutines_coreSelectClause>
+@required
+@end
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol MIOSKotlinCoroutineContextKey
+@required
+@end
+
 __attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
 @protocol MIOSKotlinx_coroutines_coreFlowCollector
 @required
@@ -1544,82 +1633,8 @@ __attribute__((swift_name("Ktor_httpCookie.Companion")))
 - (id<MIOSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause")))
-@protocol MIOSKotlinx_coroutines_coreSelectClause
-@required
-@property (readonly) id clauseObject __attribute__((swift_name("clauseObject")));
-@property (readonly) MIOSKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<MIOSKotlinx_coroutines_coreSelectInstance>, id _Nullable, id _Nullable))(MIOSKotlinThrowable *, id _Nullable, id<MIOSKotlinCoroutineContext>) __attribute__((swift_name("onCancellationConstructor")));
-@property (readonly) id _Nullable (^processResFunc)(id, id _Nullable, id _Nullable) __attribute__((swift_name("processResFunc")));
-@property (readonly) void (^regFunc)(id, id<MIOSKotlinx_coroutines_coreSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
-@end
-
 __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause1")))
 @protocol MIOSKotlinx_coroutines_coreSelectClause1 <MIOSKotlinx_coroutines_coreSelectClause>
-@required
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol MIOSKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol MIOSKotlinx_coroutines_coreChildHandle <MIOSKotlinx_coroutines_coreDisposableHandle>
-@required
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-- (BOOL)childCancelledCause:(MIOSKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-@property (readonly, getter=parent_) id<MIOSKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol MIOSKotlinx_coroutines_coreChildJob <MIOSKotlinx_coroutines_coreJob>
-@required
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-- (void)parentCancelledParentJob:(id<MIOSKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol MIOSKotlinSequence
-@required
-- (id<MIOSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol MIOSKotlinx_coroutines_coreSelectClause0 <MIOSKotlinx_coroutines_coreSelectClause>
-@required
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol MIOSKotlinCoroutineContextKey
 @required
 @end
 
@@ -1630,6 +1645,7 @@ __attribute__((swift_name("Ktor_httpUrl.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) MIOSKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
+- (id<MIOSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((swift_name("Ktor_utilsStringValues")))
@@ -1653,7 +1669,7 @@ __attribute__((swift_name("Ktor_httpParameters")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpURLProtocol")))
-@interface MIOSKtor_httpURLProtocol : MIOSBase
+@interface MIOSKtor_httpURLProtocol : MIOSBase <MIOSKtor_ioJvmSerializable>
 - (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) MIOSKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
 - (MIOSKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
@@ -1735,66 +1751,16 @@ __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
 __attribute__((swift_name("Kotlinx_serialization_coreSerialDescriptor")))
 @protocol MIOSKotlinx_serialization_coreSerialDescriptor
 @required
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (NSArray<id<MIOSKotlinAnnotation>> *)getElementAnnotationsIndex:(int32_t)index __attribute__((swift_name("getElementAnnotations(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (id<MIOSKotlinx_serialization_coreSerialDescriptor>)getElementDescriptorIndex:(int32_t)index __attribute__((swift_name("getElementDescriptor(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (int32_t)getElementIndexName:(NSString *)name __attribute__((swift_name("getElementIndex(name:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (NSString *)getElementNameIndex:(int32_t)index __attribute__((swift_name("getElementName(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 - (BOOL)isElementOptionalIndex:(int32_t)index __attribute__((swift_name("isElementOptional(index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) NSArray<id<MIOSKotlinAnnotation>> *annotations __attribute__((swift_name("annotations")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) int32_t elementsCount __attribute__((swift_name("elementsCount")));
 @property (readonly) BOOL isInline __attribute__((swift_name("isInline")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) BOOL isNullable __attribute__((swift_name("isNullable")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) MIOSKotlinx_serialization_coreSerialKind *kind __attribute__((swift_name("kind")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) NSString *serialName __attribute__((swift_name("serialName")));
 @end
 
@@ -2100,6 +2066,36 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
 @property (readonly) MIOSKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol MIOSKotlinx_coroutines_coreParentJob <MIOSKotlinx_coroutines_coreJob>
+@required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+- (MIOSKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol MIOSKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnCompletionDisposableHandle:(id<MIOSKotlinx_coroutines_coreDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
+- (void)selectInRegistrationPhaseInternalResult:(id _Nullable)internalResult __attribute__((swift_name("selectInRegistrationPhase(internalResult:)")));
+- (BOOL)trySelectClauseObject:(id)clauseObject result:(id _Nullable)result __attribute__((swift_name("trySelect(clauseObject:result:)")));
+@property (readonly) id<MIOSKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_utilsWeekDay")))
 @interface MIOSKtor_utilsWeekDay : MIOSKotlinEnum<MIOSKtor_utilsWeekDay *>
@@ -2152,36 +2148,6 @@ __attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
 @property (class, readonly, getter=shared) MIOSKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
 - (id<MIOSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @property (readonly) MIOSKtor_utilsGMTDate *START __attribute__((swift_name("START")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol MIOSKotlinx_coroutines_coreSelectInstance
-@required
-- (void)disposeOnCompletionDisposableHandle:(id<MIOSKotlinx_coroutines_coreDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
-- (void)selectInRegistrationPhaseInternalResult:(id _Nullable)internalResult __attribute__((swift_name("selectInRegistrationPhase(internalResult:)")));
-- (BOOL)trySelectClauseObject:(id)clauseObject result:(id _Nullable)result __attribute__((swift_name("trySelect(clauseObject:result:)")));
-@property (readonly) id<MIOSKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol MIOSKotlinx_coroutines_coreParentJob <MIOSKotlinx_coroutines_coreJob>
-@required
-
-/**
- * @note annotations
- *   kotlinx.coroutines.InternalCoroutinesApi
-*/
-- (MIOSKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
 @end
 
 __attribute__((swift_name("KotlinMapEntry")))
@@ -2321,11 +2287,6 @@ __attribute__((swift_name("KotlinAnnotation")))
 @required
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 __attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
 @interface MIOSKotlinx_serialization_coreSerialKind : MIOSBase
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2801,17 +2762,6 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
 @property (readonly) MIOSKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
 @property (readonly) MIOSKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
 @property (readonly) MIOSKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="2.0")
-*/
-__attribute__((swift_name("KotlinAutoCloseable")))
-@protocol MIOSKotlinAutoCloseable
-@required
-- (void)close __attribute__((swift_name("close()")));
 @end
 
 __attribute__((swift_name("Kotlinx_io_coreRawSource")))
