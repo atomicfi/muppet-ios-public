@@ -869,6 +869,7 @@ __attribute__((objc_subclassing_restricted))
 @property (class, readonly) PageEvent *popup __attribute__((swift_name("popup")));
 @property (class, readonly) PageEvent *visible __attribute__((swift_name("visible")));
 @property (class, readonly) PageEvent *hostblocked __attribute__((swift_name("hostblocked")));
+@property (class, readonly) PageEvent *error __attribute__((swift_name("error")));
 + (MIOSKotlinArray<PageEvent *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<PageEvent *> *entries __attribute__((swift_name("entries")));
 @end
