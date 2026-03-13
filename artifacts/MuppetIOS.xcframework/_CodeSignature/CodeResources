@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/MuppetIOS.framework/Headers/MuppetIOS.h</key>
 		<data>
-		5TyEah82wysAjiqcs4r+CvD+hl0=
+		LiRONqUGBBPZTOfJo4A0HBSQwY8=
 		</data>
 		<key>ios-arm64/MuppetIOS.framework/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/MuppetIOS.framework/MuppetIOS</key>
 		<data>
-		EAdu4gEcG+9mfCe46mHrL+fQWRo=
+		VRXv2xXP72rOy3b00plp//yBmGY=
 		</data>
 		<key>ios-arm64/dSYMs/MuppetIOS.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>ios-arm64/dSYMs/MuppetIOS.framework.dSYM/Contents/Resources/DWARF/MuppetIOS</key>
 		<data>
-		HYEP1X+yumlWi7QEchX658NYCEo=
+		8WfhrdWRcFJWrQvHbO1OHEU0u8U=
 		</data>
 		<key>ios-arm64/dSYMs/MuppetIOS.framework.dSYM/Contents/Resources/Relocations/aarch64/MuppetIOS.yml</key>
 		<data>
-		Va2zvDFavIhcTPsWJqi9HENlEqg=
+		RNM0EA6tjuv0mn2fCtnt0Yr5YC0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MuppetIOS.framework/Headers/MuppetIOS.h</key>
 		<data>
-		5TyEah82wysAjiqcs4r+CvD+hl0=
+		LiRONqUGBBPZTOfJo4A0HBSQwY8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MuppetIOS.framework/Info.plist</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MuppetIOS.framework/MuppetIOS</key>
 		<data>
-		vr/8okGNDLD9dl5m/KLXEzhJ/ag=
+		7boPbpgsuQY/++nFU2tNti8hAZk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MuppetIOS.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MuppetIOS.framework.dSYM/Contents/Resources/DWARF/MuppetIOS</key>
 		<data>
-		38PC7fXDQV2YKGXMii5hU+iEa5I=
+		vOfGqREWF10E/7o4a/+l2sXHW0w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -63,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5TyEah82wysAjiqcs4r+CvD+hl0=
+			LiRONqUGBBPZTOfJo4A0HBSQwY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			eL8iXqilyGVvUmDtzLK9M02cy5kOpsAqb9cy/XF51Rs=
+			e5u4m+JHqwURFoBz1mZ2wPbV55CC+Wy7SUq6uC6jwxk=
 			</data>
 		</dict>
 		<key>ios-arm64/MuppetIOS.framework/Info.plist</key>
@@ -96,11 +96,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EAdu4gEcG+9mfCe46mHrL+fQWRo=
+			VRXv2xXP72rOy3b00plp//yBmGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			SIcQj3ESCoGp0BfH+XB4ugSYWPiGzE1esLPKQB/HPLQ=
+			ryo+w/yT6twJ5mqC8jMBI6ppuY2ifLkJhlCipLC7NXM=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/MuppetIOS.framework.dSYM/Contents/Info.plist</key>
@@ -118,33 +118,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HYEP1X+yumlWi7QEchX658NYCEo=
+			8WfhrdWRcFJWrQvHbO1OHEU0u8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			BTZqMKETQ+oI+V1e9+CjH4bRMfE2VZK2yWF8zXaNh8M=
+			m3oWpEZ1WZv6g4ljrDY8Iypvm5VwJkCQ4SZL/Va3RAo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/MuppetIOS.framework.dSYM/Contents/Resources/Relocations/aarch64/MuppetIOS.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Va2zvDFavIhcTPsWJqi9HENlEqg=
+			RNM0EA6tjuv0mn2fCtnt0Yr5YC0=
 			</data>
 			<key>hash2</key>
 			<data>
-			a+bWihB6BsHeXyoUMmJiQZ7XRaexQDgne4Y9IDWAkB0=
+			vgQf+T6tNyP+U2xWXAXPasjQXBuSR9pt6YA/tQdD5eQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MuppetIOS.framework/Headers/MuppetIOS.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5TyEah82wysAjiqcs4r+CvD+hl0=
+			LiRONqUGBBPZTOfJo4A0HBSQwY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			eL8iXqilyGVvUmDtzLK9M02cy5kOpsAqb9cy/XF51Rs=
+			e5u4m+JHqwURFoBz1mZ2wPbV55CC+Wy7SUq6uC6jwxk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MuppetIOS.framework/Info.plist</key>
@@ -173,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vr/8okGNDLD9dl5m/KLXEzhJ/ag=
+			7boPbpgsuQY/++nFU2tNti8hAZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+8WF3W1oBViiIIY4BOQ2PenBxLOcuCjBdfwaKlhymnE=
+			1oW3AgtCqWkzulj56uaeJEPR9zyAivFrxK8u+zVglPU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/MuppetIOS.framework.dSYM/Contents/Info.plist</key>
@@ -195,11 +195,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			38PC7fXDQV2YKGXMii5hU+iEa5I=
+			vOfGqREWF10E/7o4a/+l2sXHW0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			S0n42u8gBcwWZ3TfH04SBWJbaa7au1tw7ztOL2byP8w=
+			CKMfxzf00NP+ru74BZQ6z03wcmFYITsahbnf6kzYUdU=
 			</data>
 		</dict>
 	</dict>
